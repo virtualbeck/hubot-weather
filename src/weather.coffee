@@ -9,7 +9,7 @@ options =
   url: 'http://api.openweathermap.org/data/2.5/find'
   qs:
     units: 'imperial'
-    appid: '' #visit openweathermap.org to obtain API key
+    appid: process.env['OPEN_WEATHER_APP_ID']
 
 module.exports = (robot) ->
   robot.hear /show ((\S* )*?\S*) weather/i, (msg) ->
