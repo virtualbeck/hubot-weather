@@ -5,4 +5,7 @@ Command: show <city> weather
 
 Output: "<city> is currently <temp>°F <slack emoji>"
 
-Note: visit http://openweathermap.org/faq#error401 for an API key
+**Configuration**
+- Obtain an API key at http://openweathermap.org/faq
+- Once obtained, set the environment variable OPEN_WEATHER_APP_ID to your API key
+- `export OPEN_WEATHER_APP_ID='MYAPIKEY'`
