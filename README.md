@@ -1,4 +1,4 @@
-# hubot-weather
+# hubot-weather-short
 Enter a city to see the current weather.
 
 Command: show <city> weather
